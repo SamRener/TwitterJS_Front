@@ -8,29 +8,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </head>
-<script>
-CarregarPosts = function () {
-  
-    $.ajax({
-        type: "GET",
-        url: "https://twitterjs-lois.herokuapp.com/Post/Find",
-        data: JSON.stringify({Post: {
-            Texto: "Teste",
-            Likes: 0
-        }}),
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (response) {
-           console.log(response);
-        },
-        error: function (error) {
-            console.log(error);
-        }
-    });
-}
-</script>
+
 <body>
-Cap > Tonyaaa
-Nunca ne fih
+  <textarea id="texto"></textarea><button onclick="InserirPost()">Inserir</button>
+  <!-- Prepend insere aqui antes de tudo -->
+<div id="divPosts"></div>
+  <!-- apppend insere aqui depois de tudo -->
 </body>
+</html>
