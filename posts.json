@@ -1,0 +1,33 @@
+{
+    "Posts": [
+        {
+            "Texto": "Texto 1",
+            "Likes": 0
+        },
+        {
+            "Texto": "Texto 2",
+            "Likes": 0
+        },
+        {
+            "Texto": "Texto 3",
+            "Likes": 0
+        },
+        {
+            "Texto": "Texto 4",
+            "Likes": 0
+        },
+        {
+            "Texto": "Texto 5",
+            "Likes": 0
+        },
+        {
+            "Texto": "Texto 6",
+            "Likes": 0
+        },
+        {
+            "Texto": "Texto 7",
+            "Likes": 0
+        }
+
+    ]
+}
